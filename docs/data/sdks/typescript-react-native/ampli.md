@@ -27,6 +27,7 @@ Amplitude Data supports tracking analytics events from React Native apps written
 
     ```shell
     npm install @amplitude/analytics-react-native
+    npm install @react-native-async-storage/async-storage
     ```
 
 2. [Install the Ampli CLI](#install-the-ampli-cli)
@@ -86,12 +87,14 @@ If you haven't already, install the core Amplitude SDK dependencies.
 
     ```bash
     npm install @amplitude/analytics-react-native
+    npm install @react-native-async-storage/async-storage
     ```
 
 === "yarn"
 
     ```bash
     yarn add @amplitude/analytics-react-native
+    yarn add @react-native-async-storage/async-storage
     ```
 
 --8<-- "includes/ampli/cli-install-simple.md"
